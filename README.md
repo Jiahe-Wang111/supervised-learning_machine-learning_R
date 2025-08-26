@@ -6,7 +6,7 @@ Each project explores different models and approaches, with a focus on understan
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ### Part 1: Predicting Tweet Authors (Bernie Sanders vs. Donald Trump)
 - **Objective:** Predict the author of a tweet (Trump or Bernie) based on its word content.  
@@ -32,25 +32,8 @@ Each project explores different models and approaches, with a focus on understan
 
 ---
 
-### Part 3: K-Fold Cross-Validation From Scratch (Bonus)
-- **Objective:** Implement a k-fold cross-validation function manually to select the best polynomial degree for a regression model.  
-- **Models:** Polynomial regression  
-- **Key Steps:**  
-  - Write custom CV function (`cv_poly`)  
-  - Compare MSE across degrees (linear, quadratic, cubic, etc.)  
-- **Takeaway:** This part is more about learning how CV works internally (since in practice we use packages like `caret`).  
-
----
-
-## 🚀 Key Learning Points
+## Key Learning Points
 - Logistic regression is simple but may fail in **high-dimensional** or **non-linear** settings.  
 - **Regularization (ridge/lasso)** helps control overfitting.  
 - **GAMs** extend flexibility by modeling non-linear relationships.  
 - **Cross-validation (CV)** is a universal tool to evaluate models and prevent over/underfitting.  
-
----
-
-## 📌 How to Run
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
